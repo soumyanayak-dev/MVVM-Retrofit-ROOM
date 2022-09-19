@@ -60,7 +60,7 @@ apply plugin: 'org.sonarqube'
 
 sonarqube
         {
-            androidVariant "clienttestDebug"
+            androidVariant "debug"
             properties
                     {
                         property "sonar.projectName", "sonarqubelocal"
