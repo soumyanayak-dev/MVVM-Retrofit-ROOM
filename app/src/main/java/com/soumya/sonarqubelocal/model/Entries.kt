@@ -1,7 +1,7 @@
 package com.soumya.sonarqubelocal.model
 
 data class Entries(
-    val API: String,
+    val api: String,
     val Description: String,
     val Auth: String,
     val HTTPS: Boolean,
