@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         val repository = PublicAPIRepository(publicServiceApi)
         mainViewModel =
             ViewModelProvider(this, MainViewModelFactory(repository)).get(MainViewModel::class.java)
-
     }
 
     fun fetchData(view: View) {
